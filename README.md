@@ -1,6 +1,7 @@
 # PSC PZero projects
 
 Supporting projects for the Piecewise Structural Complex manuscript.
+[![DOI](https://zenodo.org/badge/1435575315.svg)](https://doi.org/10.5281/zenodo.23688323)
 
 ## Open the projects
 
