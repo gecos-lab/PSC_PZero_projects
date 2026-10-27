@@ -1,0 +1,622 @@
+{
+  "tables": [
+    {
+      "name": "Section1",
+      "table_type": "stm",
+      "options": {
+        "stm_model_boundary_source": {
+          "color_B": 255,
+          "color_G": 255,
+          "color_R": 255,
+          "kind": "extra",
+          "name": "Model Boundary"
+        }
+      },
+      "stm": {
+        "name": "Section1",
+        "boundaries": {
+          "columns": [
+            "Feature",
+            "Role",
+            "Level",
+            "Units"
+          ],
+          "data": [
+            [
+              "Model Boundary",
+              "model_boundary",
+              "-inf",
+              [
+                "SU1",
+                "SU2",
+                "SU3",
+                "SU4"
+              ]
+            ],
+            [
+              "Unc1",
+              "unconformity",
+              1.0,
+              [
+                "SU3",
+                "SU4"
+              ]
+            ],
+            [
+              "TopSU1",
+              "top",
+              4.0,
+              [
+                "SU1",
+                "SU2"
+              ]
+            ],
+            [
+              "TopSU2",
+              "top",
+              3.0,
+              [
+                "SU2",
+                "SU3"
+              ]
+            ],
+            [
+              "TopSU3",
+              "top",
+              2.0,
+              [
+                "SU3",
+                "SU4"
+              ]
+            ]
+          ]
+        },
+        "units": {
+          "columns": [
+            "Feature",
+            "Unit Role",
+            "Level",
+            "Unconformable Boundaries",
+            "Conformable Boundaries",
+            "Domain_1"
+          ],
+          "data": [
+            [
+              "SU1",
+              "SU",
+              4.5,
+              [
+                "Model Boundary"
+              ],
+              [
+                "TopSU1"
+              ],
+              ""
+            ],
+            [
+              "SU2",
+              "SU",
+              3.5,
+              [
+                "Model Boundary"
+              ],
+              [
+                "TopSU1",
+                "TopSU2"
+              ],
+              ""
+            ],
+            [
+              "SU3",
+              "SU",
+              2.5,
+              [
+                "Model Boundary",
+                "Unc1"
+              ],
+              [
+                "TopSU2",
+                "TopSU3"
+              ],
+              ""
+            ],
+            [
+              "SU4",
+              "SU",
+              1.5,
+              [
+                "Model Boundary",
+                "Unc1"
+              ],
+              [
+                "TopSU3"
+              ],
+              ""
+            ]
+          ]
+        },
+        "colors": {
+          "Model Boundary": [
+            255,
+            255,
+            255
+          ],
+          "Unc1": [
+            206,
+            32,
+            14
+          ],
+          "TopSU1": [
+            72,
+            175,
+            142
+          ],
+          "TopSU2": [
+            0,
+            113,
+            188
+          ],
+          "TopSU3": [
+            185,
+            181,
+            255
+          ],
+          "SU1": [
+            72,
+            175,
+            142
+          ],
+          "SU2": [
+            0,
+            113,
+            188
+          ],
+          "SU3": [
+            185,
+            181,
+            255
+          ],
+          "SU4": [
+            219,
+            217,
+            194
+          ]
+        },
+        "locked_conformable_links": [
+          {
+            "unit": "SU1",
+            "boundary": "TopSU1"
+          },
+          {
+            "unit": "SU2",
+            "boundary": "TopSU2"
+          },
+          {
+            "unit": "SU3",
+            "boundary": "TopSU3"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Section2",
+      "table_type": "stm",
+      "options": {
+        "stm_model_boundary_source": {
+          "color_B": 255,
+          "color_G": 255,
+          "color_R": 255,
+          "kind": "extra",
+          "name": "Model Boundary"
+        },
+        "stm_unit_level_overrides": {
+          "TU1": 5.5
+        }
+      },
+      "stm": {
+        "name": "Section2",
+        "boundaries": {
+          "columns": [
+            "Feature",
+            "Role",
+            "Level",
+            "Units"
+          ],
+          "data": [
+            [
+              "Model Boundary",
+              "model_boundary",
+              "-inf",
+              [
+                "SU5",
+                "SU6",
+                "SU7",
+                "TU1"
+              ]
+            ],
+            [
+              "F1",
+              "fault",
+              2.0,
+              [
+                "SU5",
+                "SU6",
+                "TU1"
+              ]
+            ],
+            [
+              "F2",
+              "fault",
+              3.0,
+              [
+                "SU5",
+                "SU6",
+                "TU1"
+              ]
+            ],
+            [
+              "TopSU5",
+              "top",
+              4.0,
+              [
+                "SU5",
+                "SU6"
+              ]
+            ],
+            [
+              "Unc2",
+              "unconformity",
+              1.0,
+              [
+                "SU6",
+                "SU7"
+              ]
+            ],
+            [
+              "Unc3",
+              "unconformity",
+              5.0,
+              [
+                "SU5",
+                "TU1"
+              ]
+            ]
+          ]
+        },
+        "units": {
+          "columns": [
+            "Feature",
+            "Unit Role",
+            "Level",
+            "Unconformable Boundaries",
+            "Conformable Boundaries",
+            "Domain_1"
+          ],
+          "data": [
+            [
+              "SU5",
+              "SU",
+              4.5,
+              [
+                "F1",
+                "F2",
+                "Model Boundary",
+                "Unc3"
+              ],
+              [
+                "TopSU5"
+              ],
+              ""
+            ],
+            [
+              "SU6",
+              "SU",
+              3.5,
+              [
+                "F1",
+                "F2",
+                "Model Boundary",
+                "Unc2"
+              ],
+              [
+                "TopSU5"
+              ],
+              ""
+            ],
+            [
+              "SU7",
+              "SU",
+              0.5,
+              [
+                "Model Boundary",
+                "Unc2"
+              ],
+              [],
+              ""
+            ],
+            [
+              "TU1",
+              "TU",
+              "5.5",
+              [
+                "F1",
+                "F2",
+                "Model Boundary",
+                "Unc3"
+              ],
+              [],
+              ""
+            ]
+          ]
+        },
+        "colors": {
+          "Model Boundary": [
+            255,
+            255,
+            255
+          ],
+          "F1": [
+            255,
+            0,
+            0
+          ],
+          "F2": [
+            255,
+            85,
+            0
+          ],
+          "Unc2": [
+            219,
+            9,
+            102
+          ],
+          "Unc3": [
+            118,
+            228,
+            171
+          ],
+          "SU5": [
+            143,
+            176,
+            249
+          ],
+          "SU6": [
+            191,
+            245,
+            230
+          ],
+          "SU7": [
+            229,
+            255,
+            97
+          ],
+          "TU1": [
+            6,
+            22,
+            245
+          ]
+        },
+        "locked_conformable_links": [
+          {
+            "unit": "SU5",
+            "boundary": "TopSU5"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Section3",
+      "table_type": "stm",
+      "options": {
+        "stm_model_boundary_source": {
+          "color_B": 255,
+          "color_G": 255,
+          "color_R": 255,
+          "kind": "extra",
+          "name": "Model Boundary"
+        }
+      },
+      "stm": {
+        "name": "Section3",
+        "boundaries": {
+          "columns": [
+            "Feature",
+            "Role",
+            "Level",
+            "Units"
+          ],
+          "data": [
+            [
+              "Model Boundary",
+              "model_boundary",
+              "-inf",
+              [
+                "SU8",
+                "TU2",
+                "TU3",
+                "TU4",
+                "TU5"
+              ]
+            ],
+            [
+              "Tect1",
+              "tectonic",
+              4.0,
+              [
+                "TU2",
+                "TU3"
+              ]
+            ],
+            [
+              "Tect2",
+              "tectonic",
+              3.0,
+              [
+                "TU2",
+                "TU3",
+                "TU4"
+              ]
+            ],
+            [
+              "Tect3",
+              "tectonic",
+              2.0,
+              [
+                "TU2",
+                "TU3",
+                "TU4",
+                "TU5"
+              ]
+            ],
+            [
+              "Unc4",
+              "unconformity",
+              1.0,
+              [
+                "SU8",
+                "TU4",
+                "TU5"
+              ]
+            ]
+          ]
+        },
+        "units": {
+          "columns": [
+            "Feature",
+            "Unit Role",
+            "Level",
+            "Unconformable Boundaries",
+            "Conformable Boundaries",
+            "Domain_1",
+            "Domain_2"
+          ],
+          "data": [
+            [
+              "TU2",
+              "TU",
+              4.5,
+              [
+                "Model Boundary",
+                "Tect2",
+                "Tect3"
+              ],
+              [
+                "Tect1"
+              ],
+              "Nappe 1",
+              "Basement"
+            ],
+            [
+              "TU3",
+              "TU",
+              3.5,
+              [
+                "Model Boundary",
+                "Tect2",
+                "Tect3"
+              ],
+              [
+                "Tect1"
+              ],
+              "Nappe 1",
+              "Basement"
+            ],
+            [
+              "TU4",
+              "TU",
+              2.5,
+              [
+                "Model Boundary",
+                "Tect2",
+                "Tect3",
+                "Unc4"
+              ],
+              [],
+              "",
+              "Basement"
+            ],
+            [
+              "TU5",
+              "TU",
+              1.5,
+              [
+                "Model Boundary",
+                "Unc4"
+              ],
+              [
+                "Tect3"
+              ],
+              "",
+              "Basement"
+            ],
+            [
+              "SU8",
+              "SU",
+              0.5,
+              [
+                "Model Boundary",
+                "Unc4"
+              ],
+              [],
+              "",
+              ""
+            ]
+          ]
+        },
+        "colors": {
+          "Model Boundary": [
+            255,
+            255,
+            255
+          ],
+          "Tect1": [
+            139,
+            180,
+            203
+          ],
+          "Tect2": [
+            40,
+            136,
+            212
+          ],
+          "Tect3": [
+            85,
+            0,
+            255
+          ],
+          "Unc4": [
+            106,
+            0,
+            0
+          ],
+          "TU2": [
+            0,
+            170,
+            0
+          ],
+          "TU3": [
+            174,
+            221,
+            204
+          ],
+          "TU4": [
+            255,
+            214,
+            187
+          ],
+          "TU5": [
+            185,
+            181,
+            255
+          ],
+          "SU8": [
+            245,
+            168,
+            168
+          ]
+        },
+        "locked_conformable_links": []
+      }
+    }
+  ]
+}

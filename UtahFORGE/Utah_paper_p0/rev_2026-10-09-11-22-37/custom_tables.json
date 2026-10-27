@@ -1,0 +1,121 @@
+{
+  "tables": [
+    {
+      "name": "STM",
+      "table_type": "stm",
+      "options": {
+        "stm_model_boundary_source": {
+          "color_B": 255,
+          "color_G": 255,
+          "color_R": 255,
+          "kind": "extra",
+          "name": "Model Boundary"
+        },
+        "stm_unit_level_overrides": {
+          "Granitoid": 3.5,
+          "SedimentaryCover": 2.5
+        },
+        "psc_seed_overrides": {
+          "unit:stm:0:Granitoid": [
+            336602.0981877256,
+            4263883.297887823,
+            150.36988620481966
+          ],
+          "unit:stm:1:SedimentaryCover": [
+            334850.68312196527,
+            4264945.814359888,
+            1158.2929754713916
+          ]
+        }
+      },
+      "stm": {
+        "name": "STM",
+        "boundaries": {
+          "columns": [
+            "Feature",
+            "Role",
+            "Level",
+            "Units"
+          ],
+          "data": [
+            [
+              "Model Boundary",
+              "model_boundary",
+              "-inf",
+              [
+                "Granitoid",
+                "SedimentaryCover"
+              ]
+            ],
+            [
+              "Unconformity",
+              "unconformity",
+              "3",
+              [
+                "Granitoid",
+                "SedimentaryCover"
+              ]
+            ]
+          ]
+        },
+        "units": {
+          "columns": [
+            "Feature",
+            "Unit Role",
+            "Level",
+            "Unconformable Boundaries",
+            "Conformable Boundaries",
+            "Domain_1"
+          ],
+          "data": [
+            [
+              "Granitoid",
+              "IU",
+              "3.5",
+              [
+                "Model Boundary",
+                "Unconformity"
+              ],
+              [],
+              ""
+            ],
+            [
+              "SedimentaryCover",
+              "SU",
+              "2.5",
+              [
+                "Model Boundary",
+                "Unconformity"
+              ],
+              [],
+              ""
+            ]
+          ]
+        },
+        "colors": {
+          "Model Boundary": [
+            255,
+            255,
+            255
+          ],
+          "Unconformity": [
+            52,
+            242,
+            140
+          ],
+          "Granitoid": [
+            255,
+            164,
+            181
+          ],
+          "SedimentaryCover": [
+            85,
+            255,
+            255
+          ]
+        },
+        "locked_conformable_links": []
+      }
+    }
+  ]
+}

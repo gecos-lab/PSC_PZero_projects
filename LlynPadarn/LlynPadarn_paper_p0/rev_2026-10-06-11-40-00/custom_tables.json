@@ -1,0 +1,356 @@
+{
+  "tables": [
+    {
+      "name": "STM_LlynPadarn",
+      "table_type": "stm",
+      "options": {
+        "stm_model_boundary_source": {
+          "color_B": 255,
+          "color_G": 255,
+          "color_R": 255,
+          "kind": "collection",
+          "name": "new_boundary",
+          "uid": "bafe6843-0060-41e6-91ef-b87a9ef12576"
+        },
+        "psc_section_seed_selection": [
+          "2e3e3ca2-860b-41f7-aa6e-3203ceaed4b1",
+          "332c4a46-875a-4237-95fe-d27e29eb0047",
+          "37090b6d-c6b4-40bd-8fa3-b48855278804",
+          "4bad9d00-7896-41e0-9d16-001e85fce1fd",
+          "5d2adfe5-9d62-4f18-83ca-acad9546d24d",
+          "626125d2-8936-45e5-9e3d-9703961a10fe",
+          "7c42d828-3c12-4357-bb92-a273309d508d",
+          "8ca87753-8902-470a-ae60-71b35ea8a1ca",
+          "98fe4d28-4ce7-4333-9cb3-da064c4be40f",
+          "99e5d3c5-11e7-43db-a574-659b7688a247",
+          "a45e254b-1e8f-45f2-8797-47002e14d52e",
+          "ace278ca-58f5-4bda-8cd0-5e15b45d686d",
+          "af29c250-6dab-404c-a6e7-7febb30316e7",
+          "bbb0ca07-4c45-4e66-9718-95e53cc6a3f2",
+          "daae989f-4a41-4a47-8886-b6fd03b5cfc1",
+          "db4e5f43-ca28-46ba-88d1-575ea8461ede",
+          "f109f19e-2659-4512-b12b-fdc3078f6841"
+        ],
+        "psc_seed_overrides": {
+          "section_seed:eroded": [
+            [
+              424044.0625,
+              5883634.5,
+              641.0338134765625
+            ],
+            [
+              422554.875,
+              5884639.0,
+              887.6220703125
+            ],
+            [
+              422027.375,
+              5884995.0,
+              685.5096435546875
+            ],
+            [
+              423360.8125,
+              5884095.5,
+              469.1720275878906
+            ],
+            [
+              421983.8125,
+              5885024.5,
+              534.4033203125
+            ],
+            [
+              423747.90625,
+              5883834.5,
+              970.7437133789062
+            ],
+            [
+              424179.875,
+              5883543.0,
+              374.44830322265625
+            ],
+            [
+              424579.625,
+              5883273.5,
+              984.6846313476562
+            ],
+            [
+              421945.625,
+              5885050.0,
+              399.92779541015625
+            ],
+            [
+              424697.53125,
+              5883194.0,
+              354.95062255859375
+            ]
+          ],
+          "unit:stm:1:02_Marchlyn_Fm": [
+            424020.84375,
+            5883650.5,
+            105.00961303710938
+          ],
+          "unit:stm:2:03_Bronllwyd_Grit_Fm": [
+            424370.5625,
+            5883414.5,
+            14.63238525390625
+          ],
+          "unit:stm:0:01_Nant_Ffrancon_Fm": [
+            [
+              422920.59375,
+              5884392.5,
+              247.03436279296875
+            ],
+            [
+              423835.25,
+              5883775.5,
+              263.07086181640625
+            ],
+            [
+              424563.21875,
+              5883284.5,
+              375.9359130859375
+            ]
+          ],
+          "unit:stm:3:04_Llanberis_Slates_Fm": [
+            422132.40625,
+            5884924.0,
+            -5.19549560546875
+          ],
+          "unit:stm:4:05_Fachwen_Fm": [
+            421938.46875,
+            5885055.0,
+            -165.3048095703125
+          ]
+        },
+        "psc_seed_override_metadata": {
+          "section_seed:eroded": {
+            "feature": "eroded",
+            "name": "eroded",
+            "source": "section_eroded_seed",
+            "source_feature": "01_Nant_Ffrancon_Fm_eroded",
+            "unit_role": ""
+          }
+        },
+        "psc_section_seed_merge_eroded": true
+      },
+      "stm": {
+        "name": "STM_LlynPadarn",
+        "boundaries": {
+          "columns": [
+            "Feature",
+            "Role",
+            "Level",
+            "Units"
+          ],
+          "data": [
+            [
+              "new_boundary",
+              "model_boundary",
+              "-inf",
+              [
+                "01_Nant_Ffrancon_Fm",
+                "02_Marchlyn_Fm",
+                "03_Bronllwyd_Grit_Fm",
+                "04_Llanberis_Slates_Fm",
+                "05_Fachwen_Fm",
+                "Above_NantF"
+              ]
+            ],
+            [
+              "01_Nant_Ffrancon_Fm",
+              "top",
+              1.0,
+              [
+                "01_Nant_Ffrancon_Fm",
+                "Above_NantF"
+              ]
+            ],
+            [
+              "02_Marchlyn_Fm",
+              "top",
+              2.0,
+              [
+                "01_Nant_Ffrancon_Fm",
+                "02_Marchlyn_Fm"
+              ]
+            ],
+            [
+              "03_Bronllwyd_Grit_Fm",
+              "top",
+              3.0,
+              [
+                "02_Marchlyn_Fm",
+                "03_Bronllwyd_Grit_Fm"
+              ]
+            ],
+            [
+              "04_Llanberis_Slates_Fm",
+              "top",
+              4.0,
+              [
+                "03_Bronllwyd_Grit_Fm",
+                "04_Llanberis_Slates_Fm"
+              ]
+            ],
+            [
+              "05_Fachwen_Fm",
+              "top",
+              5.0,
+              [
+                "04_Llanberis_Slates_Fm",
+                "05_Fachwen_Fm"
+              ]
+            ]
+          ]
+        },
+        "units": {
+          "columns": [
+            "Feature",
+            "Unit Role",
+            "Level",
+            "Unconformable Boundaries",
+            "Conformable Boundaries",
+            "Domain_1"
+          ],
+          "data": [
+            [
+              "01_Nant_Ffrancon_Fm",
+              "SU",
+              1.5,
+              [
+                "new_boundary"
+              ],
+              [
+                "01_Nant_Ffrancon_Fm",
+                "02_Marchlyn_Fm"
+              ],
+              ""
+            ],
+            [
+              "02_Marchlyn_Fm",
+              "SU",
+              2.5,
+              [
+                "new_boundary"
+              ],
+              [
+                "02_Marchlyn_Fm",
+                "03_Bronllwyd_Grit_Fm"
+              ],
+              ""
+            ],
+            [
+              "03_Bronllwyd_Grit_Fm",
+              "SU",
+              3.5,
+              [
+                "new_boundary"
+              ],
+              [
+                "03_Bronllwyd_Grit_Fm",
+                "04_Llanberis_Slates_Fm"
+              ],
+              ""
+            ],
+            [
+              "04_Llanberis_Slates_Fm",
+              "SU",
+              4.5,
+              [
+                "new_boundary"
+              ],
+              [
+                "04_Llanberis_Slates_Fm",
+                "05_Fachwen_Fm"
+              ],
+              ""
+            ],
+            [
+              "05_Fachwen_Fm",
+              "SU",
+              5.5,
+              [
+                "new_boundary"
+              ],
+              [
+                "05_Fachwen_Fm"
+              ],
+              ""
+            ],
+            [
+              "Above_NantF",
+              "SU",
+              0.5,
+              [
+                "new_boundary"
+              ],
+              [
+                "01_Nant_Ffrancon_Fm"
+              ],
+              ""
+            ]
+          ]
+        },
+        "colors": {
+          "new_boundary": [
+            255,
+            255,
+            255
+          ],
+          "01_Nant_Ffrancon_Fm": [
+            176,
+            165,
+            255
+          ],
+          "02_Marchlyn_Fm": [
+            135,
+            182,
+            73
+          ],
+          "03_Bronllwyd_Grit_Fm": [
+            212,
+            212,
+            20
+          ],
+          "04_Llanberis_Slates_Fm": [
+            60,
+            121,
+            0
+          ],
+          "05_Fachwen_Fm": [
+            199,
+            221,
+            137
+          ],
+          "Above_NantF": [
+            0,
+            170,
+            127
+          ]
+        },
+        "locked_conformable_links": [
+          {
+            "unit": "01_Nant_Ffrancon_Fm",
+            "boundary": "01_Nant_Ffrancon_Fm"
+          },
+          {
+            "unit": "02_Marchlyn_Fm",
+            "boundary": "02_Marchlyn_Fm"
+          },
+          {
+            "unit": "03_Bronllwyd_Grit_Fm",
+            "boundary": "03_Bronllwyd_Grit_Fm"
+          },
+          {
+            "unit": "04_Llanberis_Slates_Fm",
+            "boundary": "04_Llanberis_Slates_Fm"
+          },
+          {
+            "unit": "05_Fachwen_Fm",
+            "boundary": "05_Fachwen_Fm"
+          }
+        ]
+      }
+    }
+  ]
+}

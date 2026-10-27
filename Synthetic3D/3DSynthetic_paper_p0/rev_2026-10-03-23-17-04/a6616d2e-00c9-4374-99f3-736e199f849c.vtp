@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<VTKFile type="PolyData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <PolyData>
+    <Piece NumberOfPoints="65"                   NumberOfVerts="0"                    NumberOfLines="64"                   NumberOfStrips="0"                    NumberOfPolys="0"                   >
+      <PointData>
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float32" Name="numpy_array" NumberOfComponents="3" format="appended" RangeMin="80.374905781"         RangeMax="3038.2875339"         offset="0"                   >
+          <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+            <Value index="0">
+              80.374905781
+            </Value>
+            <Value index="1">
+              3038.2875339
+            </Value>
+          </InformationKey>
+        </DataArray>
+      </Points>
+      <Verts>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="772"                 />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="788"                 />
+      </Verts>
+      <Lines>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="804"                 />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="996"                 />
+      </Lines>
+      <Strips>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="1192"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="1208"                />
+      </Strips>
+      <Polys>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="1224"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="1240"                />
+      </Polys>
+    </Piece>
+  </PolyData>
+  <AppendedData encoding="base64">
+   _AQAAAACAAAAMAwAALwIAAA==eJw90F1I02EUBvBhbE4JJwNtjkqDUQtb1GwtpFojyHWTZF8zoSipljEaS4wMIsyllELN8qswdCtxW1Zoa1uuuf97XjKc5OxjsbowViJJxRpkaLjqvLS738XhOc85PJ6ek8mbtOM3KzneXytH12vfnTCjxwWRQEGyAf3RlQjeLulDb7k2F6zf4UCPjSWD1UIn+osmk9ML+tF9JT3c0vL36MWSUc6+4TtabF1EoioB+ec74rXEHpOid/E2EnlgOXpGoiO5zavQ9joTqdGp0U90FrLVqEWraBvhwqXoCdMgyZIdR7sveEhWhQFd82GI9Pur0F89QHIzTrMZw2eiMF9Euxr4kPBdQVdwmfDK3YTeGZVCLGxFN0oK4fx8O9pxeB3k/O5EFy3bD/nb7qJHrh6EQPU9dLzXCC/FTvS+HDM4ZS60elMdLLnxEL2m3ALP6x+huzRWyD/2GD0ZbIXZgBt92d4NvYUelvPGAd5DXvTrTi8kO3zoxMgzuC58ipY2hsGW5kcfDU1ARMasSL4F4wvmvT+mYKB4mHUQzkCijDlqiUPtOeaq0C/oszPvHpiDxAPmtpMLcGklc3heQFumWGZedjrlx5gXutPp/13T7SLqrxxClw1mU76SufWMhGZoWefh2jwqWsHcfFZKD6QxRyYLaEsPu9cgl1HbN/aHUyYZVU8zd91fTW+ZmI/EFVQjYtYri1LeY1KlzAupU/45W0xtHSz/k3Ez3V7qI38AP/NvCQ==AAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAQAAAACAAAAABAAAfQAAAA==eJxdxTVCAgAAAEC6JaQElEa6pFP+/yoGmO6WCwReghziMEc4yjGOc4KTnOI0Z/iDs5zjPBf4k4tc4jJXuMpfXOM6N/ibf7jJLW5zh7vc4z4P+JeHPOIxT3jKM57zgpe84jX/8Ya3vOM9H/jIJz7zha984zv/8+P9E5o7EAE=AQAAAACAAAAAAgAAgQAAAA==eJwtxdFmAgAAAMAkkySTJEkySZIkSZIkmZkkSZIkSZIkSZKkT++hu5cLBj5C/nLYEUcd87fjTjjplNPOOOucf5x3wUWXXHbFVddcd8NNt9x2x1333Pev//zvgYceeeyJp5557oWXXnntjbfeee+Djz757Iuvvvnuh59++Q0upRBBAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAA
+  </AppendedData>
+</VTKFile>
